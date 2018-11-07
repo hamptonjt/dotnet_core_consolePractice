@@ -11,5 +11,5 @@ Got a small program up and running that prints shapes.  Simple little program ut
 with the program.
 
 # Day 2
-Refactored out the printing to it's own class.  Added a command line parameter for the shape.  Will need to add a 'help' command
-line argument that will display all the options available.
+Refactored out the printing to it's own class.  Added a command line parameter for the shape.  
+- TODO: Add a 'help' command line argument that will display all the options available.
