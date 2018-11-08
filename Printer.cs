@@ -18,13 +18,15 @@ namespace ConsolePractice
             Console.Write("Enter your choice (1, 2, or 3 - or q/Q to quit): ");
         }
 
-        public static void PrintSquare()
+        public static void PrintSquare(string c, int w)
         {
+            /* Day 2 - prompts for extra parameters
             Console.Write("Please Enter the character you want to use for your Square: ");
             string c = Console.ReadLine();
 
             Console.Write("Please Enter the width/height of your Square: ");
             int w = Convert.ToInt16(Console.ReadLine());
+            */
 
             for (int i = 0; i < w; i++)
             {
@@ -36,8 +38,9 @@ namespace ConsolePractice
             }
         }
 
-        public static void PrintRectangle()
+        public static void PrintRectangle(string c, int w, int h)
         {
+            /* Day 2 - prompts for extra parameters
             Console.Write("Please Enter the character you want to use for your Rectangle: ");
             string c = Console.ReadLine();
 
@@ -46,6 +49,7 @@ namespace ConsolePractice
 
             Console.Write("Please Enter the height of your Rectangle: ");
             int h = Convert.ToInt16(Console.ReadLine());
+            */
 
             for (int i = 0; i < h; i++)
             {
@@ -57,13 +61,15 @@ namespace ConsolePractice
             }
         }
 
-        public static void PrintTriangle()
+        public static void PrintTriangle(string c, int w)
         {
+            /* Day 2 - prompts for extra parameters
             Console.Write("Please Enter the character you want to use for your Triangle: ");
             string c = Console.ReadLine();
 
             Console.Write("Please Enter the width of your Triangle: ");
             int w = Convert.ToInt16(Console.ReadLine());
+            */
 
             for (int i = 1; i <= w; i++)
             {
