@@ -13,3 +13,19 @@ with the program.
 # Day 2
 Refactored out the printing to it's own class.  Added a command line parameter for the shape.  
 - TODO: Add a 'help' command line argument that will display all the options available.
+
+# Day 3
+Changed the program to now utilize the command-line fully with a 'help' option.
+```
+$ dotnet run -- -h
+Usage:  [options]
+
+Options:
+  -?|-h|--help        Show help information
+  -s|--shape <SHAPE>  The Shape - "square", "rect", "triangle" without quotes
+  -c|--char <C>       Character used to build shape
+  -w|--width <N>      Width of the shape
+  -t|--height <N>     Height of the shape
+  ```
+
+  There are still obvious holes in this application, but I've learned a lot about how to utilize the command-line using a nuget package.
